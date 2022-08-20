@@ -16,7 +16,7 @@ def contar_pasos_desde(num_inicial):
       llego_a_uno = True;
   return pasos
 
-def conseguir_mayor_cantidad_de_pasos(max_lim):
+def conseguir_mayor_num_inicial(max_lim):
   mayor_cantidad_de_pasos = 0;
   mayor_num_inicial = 0;
   for x in range(1,max_lim):
@@ -26,7 +26,7 @@ def conseguir_mayor_cantidad_de_pasos(max_lim):
   return mayor_num_inicial;
 
 
-print(conseguir_mayor_cantidad_de_pasos(1000000));
+print(conseguir_mayor_num_inicial(1000000));
 
 
 
